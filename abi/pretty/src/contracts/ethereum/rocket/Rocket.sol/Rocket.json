@@ -1,0 +1,6 @@
+[
+  "constructor(string)",
+  "function launch()",
+  "function name() view returns (string)",
+  "function status() view returns (string)"
+]

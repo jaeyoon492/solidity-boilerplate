@@ -1,0 +1,19 @@
+[
+  "event AdminChanged(address,address)",
+  "event BeaconUpgraded(address indexed)",
+  "event Initialized(uint8)",
+  "event OwnershipTransferred(address indexed,address indexed)",
+  "event Upgraded(address indexed)",
+  "function addMenuItem(tuple(string,uint256))",
+  "function deleteMenuItem(uint256)",
+  "function getMenuItem(uint256) view returns (tuple(string,uint256))",
+  "function getMenuItemWithTimestamp(uint256) view returns (tuple(string,uint256,uint256))",
+  "function initialize()",
+  "function owner() view returns (address)",
+  "function proxiableUUID() view returns (bytes32)",
+  "function renounceOwnership()",
+  "function transferOwnership(address)",
+  "function updateMenuItemPrice(uint256,uint256)",
+  "function upgradeTo(address)",
+  "function upgradeToAndCall(address,bytes) payable"
+]
